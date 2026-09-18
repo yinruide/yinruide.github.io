@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected work in machine learning and data science.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [featured, earlier]
 horizontal: false
 ---
 
