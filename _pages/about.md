@@ -2,33 +2,42 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: B.A. Data Science & Mathematics, <a href='https://cds.nyu.edu/'>New York University</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>New York, NY</p>
+    <p>ry2406@nyu.edu</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a junior at NYU studying Data Science and Mathematics, with a minor in Media, Culture, and Communication. I'm broadly interested in how models behave once they leave the benchmark — interpretability, calibration, and safety — and in vision-language models for autonomous driving.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I currently do research at the [NYU C2SMART Lab](https://c2smart.engineering.nyu.edu/) on vision-language understanding and behavioral cloning for motion planning. Before that I built survival models and production ETL at Shopee, and most recently worked on LLM/VLM-driven merchant analytics at ByteDance.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Experience
+
+**ByteDance** · Data Scientist Intern · Beijing, China · *May 2026 – Aug 2026*
+
+Drove AI-feature analytics for a merchant-product data science team, using LLMs and VLMs to structure unstructured product assets and guide category-level AIGC generation strategy. Engineered 46 LLM-derived title features and applied LightGBM with SHAP to quantify each feature's marginal effect on order rate. Built a VLM pipeline extracting 46 visual factors from product images, using counterfactual analysis to isolate AI-generation effects. Reframed KOL brand selection as binary classification and raised F1 by 21% over the existing heuristic.
+
+**Shopee** · Business Intelligence Intern · Guangzhou, China · *Jun 2025 – Aug 2025*
+
+Built and deployed a lead time forecasting model integrating discrete-time, hazard (CoxPH), and deep (DeepHit) survival analysis, achieving a 32% MAE reduction over baseline — shortening Days of Coverage by 3 days, cutting inventory holding cost by 4%, and improving ETA accuracy by 21%. Processed 110 GB of Hive data via PrestoSQL, built a monitorable SQL/Python ETL pipeline that cut data latency from ~2.5 hrs to ~20 mins, and shipped 8 interactive dashboards for lead time monitoring and supplier tiering.
+
+## Contact
+
+ry2406@nyu.edu · ruideyin147@gmail.com · ruideyin@126.com
